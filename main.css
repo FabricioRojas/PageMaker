@@ -1,79 +1,87 @@
-body{
+@charset "UTF-8";
+body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(76, 138, 143);
+    font-family: Roboto, sans-serif;
+    background-color: #4c8a8f
 }
 
-#topTab{
+#topTab {
     top: 0;
     left: 0;
     width: 100%;
     height: 50px;
     line-height: 50px;
     position: fixed;
-    background-color: #000;
+    background-color: #000
 }
-#topTab ul{
+
+#topTab ul {
     margin: 0;
+    float: left
 }
-#topTab li{
+
+#topTab li {
     height: 100%;
-    color: #FFF;
+    color: #fff;
     padding: 0 10 0 10;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    background-color: #000;
-}
-.active{
-    color: #000 !important;
-    background-color: #FFF !important;
+    background-color: #000
 }
 
-#mainBody{
+.active {
+    color: #000!important;
+    background-color: #fff!important
+}
+
+#mainBody {
     width: 100%;
     margin-top: 50px;
-    background-color: rgb(135, 179, 135);
+    background-color: #87b387
 }
 
-#title{
+#title {
     height: 150px;
     line-height: 150px;
-    background-color: #DDDDDD;
-    text-align: center;
+    background-color: #ddd;
+    text-align: center
 }
 
-.header{
+.header {
     width: 65%;
-    margin: 0 auto;    
-    padding: 30px 0;
-}
-h2{
-    margin: 50 0 10 0;
-    text-align: center;
-}
-.underline{
-    height: 1px;
-    box-shadow: 0px 0px 5px grey;
-    background-color: rgb(78, 75, 75);
+    margin: 0 auto;
+    padding: 30px 0
 }
 
-#content{
-    margin: 0 auto;
-    /* max-width: 80%; */
+h2 {
+    margin: 50 0 10 0;
+    text-align: center
 }
-.text{
+
+.underline {
+    height: 1px;
+    box-shadow: 0 0 5px grey;
+    background-color: #4e4b4b
+}
+
+#content {
+    margin: 0 auto
+}
+
+.text {
     margin: 0 20 0 20;
     text-align: justify;
-    padding: 10;
+    padding: 10
 }
 
-#footer{
+#footer {
     padding: 15px;
-    color: #FFF;
-    background-color: #000;
+    color: #fff;
+    background-color: #000
 }
-#footer a{
+
+#footer a {
     text-decoration: none;
-    color: #FFF;
+    color: #fff
 }
